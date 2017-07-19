@@ -1,0 +1,233 @@
+.box-hover {
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 700ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Sansation-Bold.ttf);
+}
+@font-face {
+    font-family: myFirstFont2;
+    src: url(Sansation-Regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont1;
+    src: url(OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont5;
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont6;
+    src: url(too-freakin-cute-demo.regular.ttf);
+}
+div {
+    font-family: myFirstFont;
+	
+}
+h3 {
+    font-family: myFirstFont;
+}
+h2 {
+    font-family: myFirstFont;
+}
+a
+{
+	font-family: myFirstFont1;
+}
+span
+{
+font-family: myFirstFont;
+}
+p
+{
+font-family: myFirstFont1;
+}
+.social-btn {
+    width: 40px;
+    height: 40px;
+
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+}
+.social-btn {
+    width: 40px;
+    height: 40px;
+   
+   
+ 
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+}
+@media screen and (max-width: 1068px) {
+    img.smallResolution{
+        min-height: 150px;
+    }
+
+}
+.seperator
+{
+height:10px;
+width:100%;
+background:#fff0f7;
+}
+.seperator1
+{
+height:10px;
+width:100%;
+background:#fff0f7;
+}
+.image1
+{
+	width:auto;
+	
+}
+
+.back {
+   
+    min-height: 473px;
+margin-top: 7px;
+ background-image: url(&quot;service_Sec.jpg&quot;);
+background-size:contain;
+    
+}
+#myCarousel
+{
+	
+	transition: transform .6s ease-in-out;
+}
+.parallax1
+{
+background-image: url(images/p21.png);
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  div.fixed {
+        margin-left: -20px;
+    float: left;
+    position: fixed;
+    right: 0;
+    z-index: 4000;
+    width: 300px;
+    bottom: 0px;
+    left: 16px;
+    font-size: 18px;
+	}
+	@media (max-width: 768px) { /* mobile view */
+  #mascot  {
+    position: fixed;
+    // or any other property to achieve the desired
+  }
+ 
+}
+img{
+   max-width:100%;
+   height:auto;
+
+}
+.fixed-height {
+    max-height: 600px;
+}
+.arrow
+{
+
+    margin-right: 56px;
+    float: right;
+    width: 35px;
+    height: 58px;
+    margin-top: -35px;
+}
+#arrwo:hover
+{
+
+   
+ 
+  opacity:0.5;
+}
+div.fixed {
+   margin-left: -19px;
+    float: left;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    width: 300px;
+    bottom: 0px;
+    left: 16px;
+    font-size: 18px;
+}
+.subut
+	{border-color: #3dc9b3;   background: #3dc9b3;   border-radius:0px; margin-top: -4px;
+	isplay: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	
+	}
+@-moz-document url-prefix() {
+    .subut
+	{border-color: #3dc9b3;   background: #3dc9b3;   border-radius:0px; margin-top: -4px;
+	isplay: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	
+	}
+}
+.buuton1
+{
+
+
+	float:right;
+   position:fixed !important;
+    position: absolute; /*ie6 */
+    bottom: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
